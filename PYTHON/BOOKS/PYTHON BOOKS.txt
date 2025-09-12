@@ -1,0 +1,11 @@
+The Python Books = 
+
+Book 1 = https://www.linkedin.com/posts/daksh-khinvasara_the-python-book-activity-7112322419326877696-460M
+
+Book 2 = https://www.linkedin.com/posts/harikesh-tyagi%F0%9F%93%88-026296131_best-python-tutorials-book-activity-7314841314255089664-8I6k
+
+Book 3 = https://www.linkedin.com/posts/santhakumar-k-32b9562bb_think-python-activity-7333146717124505600-3he1
+
+Book 4 = https://www.linkedin.com/posts/mayank-pratap-singh-415654198_learn-python-in-one-day-and-learn-it-well-activity-7274887775680643074-Q36F
+
+Book 5 = https://www.linkedin.com/posts/harikesh-tyagi%F0%9F%93%88-026296131_best-python-book-to-start-with-activity-7272419763862028288-GeSr

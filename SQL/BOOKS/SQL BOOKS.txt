@@ -1,0 +1,155 @@
+1. SQL Notes for Professionals book
+=======================================
+Author: StackOverFlow
+Download: https://books.goalkicker.com/SQLBook/
+
+2. MySQL® Notes for Professionals book
+========================================
+Author: StackOverlow
+Download: https://books.goalkicker.com/MySQLBook/ 
+
+3. PostgreSQL® Notes for Professionals book
+============================================
+Author: StackOverFlow
+Download:https://books.goalkicker.com/PostgreSQLBook/
+
+4. Oracle® Database Notes for Professionals book
+=================================================
+Author: StackOverFlow
+Download: https://books.goalkicker.com/OracleDatabaseBook/
+
+5. SQL for Web Nerds
+=========================
+Author: Philip Greenspun
+Download: http://philip.greenspun.com/sql/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
