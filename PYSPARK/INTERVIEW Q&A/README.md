@@ -1,60 +1,45 @@
-# 💡 Interview Q&A Contribution Guide
+# 📂 Interview Questions
 
-This folder is for **real-world Data Engineering interview questions**.  
-We focus on **SQL, PySpark, Python, and System Design** questions that are practical, scenario-based, and relevant for DE interviews.
-
----
-
-## 📌 Guidelines for Adding Questions
-
-1. **Choose the correct folder**:
-   - `sql/interview-questions/` → SQL-specific interview questions  
-   - `pyspark/interview-questions/` → PySpark interview questions  
-   - `python/interview-questions/` → Python / coding questions relevant to DE  
-   - `system-design/interview-questions/` → System design & architecture for DE  
-
-2. **File naming convention**:
-   - Use the format:  
-     ```
-     Q<3-digit-number>_<short-title>.md
-     ```
-   - Example:  
-     ```
-     Q002_window_functions.md
-     Q010_kafka_streaming_design.md
-     ```
-
-3. **Question File Template** (copy & use this for each new question):
-
-```markdown
-# QXXX — <Short Descriptive Title>
-
-### 📖 Context
-Provide a short description of the scenario.  
-For example:  
-*A data engineering team receives daily logs from multiple servers. They need to find the top 3 error codes per day.*
+This folder contains **interview-style questions** for this subject (SQL / PySpark / Python / System Design).  
+All questions here should follow a **consistent format** to make the repository easy to use.
 
 ---
 
-### ❓ Question
-Write a SQL/PySpark query to solve the above problem.  
-(Add any constraints, assumptions, or data model details here.)
+## 📌 How to Add a Question
+
+- Use the detailed guide here: [INTERVIEW_QUESTIONS.md](../../INTERVIEW_QUESTIONS.md)  
+- File naming convention:  
+  ```
+  Q<3-digit-number>_<short-title>.md
+  ```
+  Example:
+  ```
+  Q001_campaign_spend_incremental_load.md
+  Q002_window_functions.md
+  ```
+
+- Each question file should include:
+  - **Context** (real-world scenario)  
+  - **Question statement**  
+  - **Sample Input Dataset** (`CREATE TABLE + INSERT` or CSV in `/datasets/`)  
+  - **Expected Output**  
+  - **Hints (optional)**  
+  - **SQL Solution (optional)**  
+  - **PySpark Solution (optional)**  
 
 ---
 
-### 📊 Input Dataset (Sample)
-```sql
-CREATE TABLE server_logs (
-    event_time TIMESTAMP,
-    server_id  INT,
-    error_code STRING
-);
+## ✅ Good Practices
 
-INSERT INTO server_logs VALUES
-('2025-09-10 08:00:00', 1, '500'),
-('2025-09-10 09:00:00', 2, '404'),
-('2025-09-10 10:00:00', 1, '500'),
-('2025-09-10 11:00:00', 3, '403'),
-('2025-09-11 08:30:00', 1, '500'),
-('2025-09-11 09:15:00', 2, '500'),
-('2025-09-11 10:45:00', 2, '404');
+- Keep datasets **small but realistic** (3–10 rows).  
+- Add both **SQL and PySpark versions** whenever possible.  
+- Add new datasets under `/datasets/` if needed.  
+- Update the **index in the main README.md** after adding a new question.  
+
+---
+
+## 🙌 Contribution
+
+This folder is **open for contributions**.  
+Fork the repo, add your question, and raise a PR!  
+Check the full guide here → [INTERVIEW_QUESTIONS.md](../../INTERVIEW_QUESTIONS.md)  
