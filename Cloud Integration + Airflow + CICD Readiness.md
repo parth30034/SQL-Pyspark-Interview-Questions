@@ -3,7 +3,8 @@
 
 ### ☁️ Integrating PySpark with External Systems
 
-**1\. How do you read and write data to S3 using PySpark in Databricks or EMR?****Answer:**Use spark.read and write with S3 path.
+**1\. How do you read and write data to S3 using PySpark in Databricks or EMR?**
+**Answer:** Use spark.read and write with S3 path.
 
 Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`   df = spark.read.csv("s3a://bucket-name/folder/")  df.write.format("parquet").mode("overwrite").save("s3a://bucket/output/")   `
 
@@ -15,7 +16,8 @@ Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQL
 
 **Best Practice:** Use secrets from key vaults or environment variables.
 
-**3\. What are best practices for reading data from Kafka into a PySpark streaming job?****Answer:**
+**3\. What are best practices for reading data from Kafka into a PySpark streaming job?**
+**Answer:**
 
 Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`   df = spark.readStream \    .format("kafka") \    .option("kafka.bootstrap.servers", "broker:9092") \    .option("subscribe", "topic-name") \    .load()   `
 
@@ -36,7 +38,8 @@ Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQL
 
 **Pro Tip:** Pass dynamic parameters via Airflow Variable or dag\_run.conf.
 
-**5\. How do you schedule a daily PySpark job using Databricks Workflows?****Answer:**
+**5\. How do you schedule a daily PySpark job using Databricks Workflows?**
+**Answer:**
 
 *   Create a Job from notebook or Python script
     
@@ -49,7 +52,8 @@ Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQL
 
 ### 🧰 Recovery, Monitoring & Alerting
 
-**6\. How do you recover a failed Spark job that processed half the data?****Answer:**
+**6\. How do you recover a failed Spark job that processed half the data?**
+**Answer:**
 
 *   Track processed files or checkpoint states
     
@@ -60,7 +64,8 @@ Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQL
 *   Make pipeline **idempotent** (using deduplication keys or MERGE)
     
 
-**7\. What monitoring tools do you use to observe Spark jobs in production?****Answer:**
+**7\. What monitoring tools do you use to observe Spark jobs in production?**
+**Answer:**
 
 *   **Spark UI** (stages, DAG, task failures)
     
@@ -73,7 +78,8 @@ Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQL
 
 **Important Metrics:** Job duration, shuffle size, skew, memory usage.
 
-**8\. What causes a Spark executor to fail and how do you fix it?****Common Reasons:**
+**8\. What causes a Spark executor to fail and how do you fix it?**
+**Common Reasons:**
 
 *   Out of memory
     
@@ -95,7 +101,8 @@ Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQL
 
 ### 🧱 Deployment & CI/CD Readiness
 
-**9\. How do you manage deployment of PySpark code in multi-env (dev, qa, prod)?****Answer:**
+**9\. How do you manage deployment of PySpark code in multi-env (dev, qa, prod)?**
+**Answer:**
 
 *   Use config-driven code (YAML/JSON)
     
@@ -106,7 +113,8 @@ Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQL
 *   Version code in Git + automate job triggers
     
 
-**10\. What are your steps before promoting a PySpark job to production?****Answer:**
+**10\. What are your steps before promoting a PySpark job to production?**
+**Answer:**
 
 *   Test on sample data in dev
     
